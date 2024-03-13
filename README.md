@@ -1,10 +1,10 @@
 ### Angular App to show login flow using Amplify
-![Login Page](/angular.png)
+![image](https://github.com/gandhirajk4u/amplify-angular-app-master/assets/51223777/19b199cc-3798-4033-bc4e-6323475e012b)
 
 #### Features:
       1. Enabled Custom Provider (Federated Identity)
-      2. Fetching user details from identity token
-      3. Calling a resource server to fetch message for user
+      2. Fetching identity token and scope from access token
+      3. SRP Auth sign in with implicit OTP
 
 Make sure your read my complete tutorial ["Cognito Hosted UI with Amplify in Angular"](https://medium.com/@arjunsk/cognito-hosted-ui-with-amplify-in-angular-7-26c9285675c4)
 
