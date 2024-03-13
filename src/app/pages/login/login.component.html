@@ -1,0 +1,29 @@
+<div class="container">
+
+  <div class="row align-items-center justify-content-center" style="height:100vh;">     
+    <div>
+
+      <div class="row">
+        <button type="button" id="sendlogin" class="btn btn-primary btn-block" (click)="onLoginClick()">
+          Login with AWS (Hosted UI)
+        </button>
+      </div>
+      
+      <br>
+      <form *ngIf="showOtp">
+        <label for="fname">Otp:</label>
+        <input type="text" id="fname" name="fname" [formControl]="otp">
+        <button type="button" id="sendlogin" class="btn btn-warning btn-block" (click)="onOtpClick()">
+         Submit 
+        </button>
+      </form>
+      <div class="row">
+        <button type="button" id="sendlogin" class="btn btn-warning btn-block" (click)="onLoginClickOkta()">
+          Login with SRP Auth
+        </button>
+      </div>
+  
+    </div>
+  </div>
+
+</div>
